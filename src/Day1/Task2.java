@@ -11,7 +11,7 @@ public class Task2 {
     public static void main (String [] args){
 int numOfJavas;
 
-        for (numOfJavas=0; numOfJavas<10; ++numOfJavas ){
+        for (numOfJavas=0; numOfJavas<10; numOfJavas++ ){
             System.out.print("JAVA ");
         }
 

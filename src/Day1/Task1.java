@@ -11,7 +11,7 @@ public class Task1 {
     public static void main (String [] args) {
         int numOfJavas = 0;
         while (numOfJavas < 10) {
-            numOfJavas = ++numOfJavas;
+            numOfJavas++;
             System.out.print("JAVA ");
         }
     }

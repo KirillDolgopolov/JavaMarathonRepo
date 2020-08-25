@@ -8,7 +8,7 @@ public class Task3 {
 
         int javaString;
 
-        for (javaString=0; javaString<10; ++javaString){
+        for (javaString=0; javaString<10; javaString++){
             System.out.print ("JAVA \n");
         }
 
