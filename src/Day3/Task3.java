@@ -24,14 +24,13 @@ public class Task3 {
             numerator = in.nextDouble();
             System.out.println("Введите знаменатель");
             denumerator = in.nextDouble();
-            for (; denumerator == 0; ) {
-                System.out.println("Деление на ноль");
-                break;
+            if (denumerator == 0) {
+                System.out.println("Деление на 0");
+                continue;
             }
-            for (; denumerator != 0; ) {
-                System.out.println("Результат " + numerator / denumerator);
-                break;
-            }
+            System.out.println("Результат " + numerator / denumerator);
+
         }
     }
 }
+
