@@ -24,17 +24,16 @@ public class Task4 {
         band2.newArtists("Гриша Тапкин");
         band2.newArtists("Николай Хвостов");
 
-        System.out.println(band1.getArtists());
-        System.out.println(band2.getArtists());
+        band1.showInfo();
+        band2.showInfo();
         System.out.println();
         System.out.println();
         System.out.println();
         band1.merger(band2);
 
-        System.out.println(band1.getArtists());
+        band1.showInfo();
         System.out.println();
-        System.out.println(band2.getArtists());
-
+        band2.showInfo();
 
     }
 }

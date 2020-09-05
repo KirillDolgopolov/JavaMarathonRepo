@@ -29,10 +29,6 @@ public class MusicBand {
         this.artists.add(artists);
     }
 
-    void removeArtists(String artists) {
-        this.artists.remove(artists);
-    }
-
     void merger(MusicBand x) {
         for (int i = 0; i < x.getArtists().size(); i++) {
             artists.add(i, x.artists.get(i));
@@ -40,5 +36,11 @@ public class MusicBand {
         }
         x.artists.clear();
     }
+    void showInfo(){
+        System.out.println("Группа " +getName()+ ", основанна в "+getYear()+ " году.");
+        System.out.println("Актуальный состав участников: "+getArtists());
+    }
 }
+
+
 
