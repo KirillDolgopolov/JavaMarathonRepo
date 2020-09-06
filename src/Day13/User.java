@@ -36,7 +36,7 @@ public class User {
         for (User userX : subscriptions) {
             if (userX == user)
                 for (User userY : user.getSubscriptions()) {
-                    if (userY == Тут_Я_Завис) {
+                    if (userY == null) {
                         return true;
                     }
                 }
